@@ -31,4 +31,22 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    protected $_keys = [];
+
+    protected function setResponse($code, $response = null, $headers = null) {
+        if (!is_array($response)) {
+            throw new InvalidArgumentException('Second argument only accepts arrays.');
+        }
+
+        $keys = array_keys($response);
+        $this->_keys = array_merge($this->_keys, $keys);
+        $this->set($response);
+        $this->set('_serialize', $this->_keys);
+
+        $this->response->statusCode($code);
+        if (is_array($headers)) {
+            $this->response->header($this->flatten($headers));
+        }
+    }
 }
