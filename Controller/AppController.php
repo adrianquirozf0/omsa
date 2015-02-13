@@ -32,6 +32,8 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
+    public $components = ["RequestHandler"];
+
     protected $_keys = [];
 
     protected function setResponse($code, $response = null, $headers = null) {
