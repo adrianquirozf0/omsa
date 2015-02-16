@@ -32,20 +32,10 @@ class Vehicle extends AppModel {
  *
  * @var array
  */
-	public $hasMany = array(
-		// 'Fix' => array(
-		// 	'className' => 'Fix',
-		// 	'foreignKey' => 'vehicle_id',
-		// 	'dependent' => false,
-		// 	'conditions' => '',
-		// 	'fields' => '',
-		// 	'order' => '',
-		// 	'limit' => '',
-		// 	'offset' => '',
-		// 	'exclusive' => '',
-		// 	'finderQuery' => '',
-		// 	'counterQuery' => ''
-		// )
+	public $hasOne = array(
+		'Fix' => array(
+			'order' => 'Fix.id DESC',
+		)
 	);
 
 }

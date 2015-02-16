@@ -14,9 +14,9 @@ class FixesController extends AppController {
 				"conditions" => [],
 			];
 
-			$name = $this->request->query("id");
-			if (strlen($name) > 0) {
-				$options["conditions"]["Fix.id LIKE"] = "%" . $id . "%";
+			$vehicle_id = $this->request->query("vehicle_id");
+			if (strlen($vehicle_id) > 0) {
+				$options["conditions"]["Fix.vehicle_id"] = $vehicle_id;
 			}
 
 			$result = $this->Fix->find("all", $options);
