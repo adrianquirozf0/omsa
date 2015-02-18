@@ -12,6 +12,7 @@
 		echo $this->Html->script("angular");
 		echo $this->Html->script("lodash");
 		echo $this->Html->script("angular-google-maps.min");
+		echo $this->Html->script("ngGeolocation");
 		echo $this->Html->script("app");
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
