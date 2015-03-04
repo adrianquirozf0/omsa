@@ -38,9 +38,11 @@ class PagesController extends AppController {
 	public $uses = array();
 
 
-	public function index(){
-
-
-		
+	public function index(){		
 	}
+
+	public function vehicle_update(){		
+	}
+
+
 }

@@ -1,0 +1,165 @@
+2015-03-02 15:00:05 Error: [MissingActionException] Action VehiclesController::fix() could not be found.
+Exception Attributes: array (
+  'controller' => 'VehiclesController',
+  'action' => 'fix',
+)
+Request URL: /vehicles/fix
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:00:25 Error: [MissingViewException] View file "Fixes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Fixes\\index.ctp',
+)
+Request URL: /fixes/
+Stack Trace:
+#0 C:\xampp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#4 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-02 15:00:29 Error: [MissingActionException] Action FixesController::id() could not be found.
+Exception Attributes: array (
+  'controller' => 'FixesController',
+  'action' => 'id',
+)
+Request URL: /fixes/id
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:00:35 Error: [MissingActionException] Action FixesController::latitude() could not be found.
+Exception Attributes: array (
+  'controller' => 'FixesController',
+  'action' => 'latitude',
+)
+Request URL: /fixes/latitude.json
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:01:14 Error: [MissingViewException] View file "Fixes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Fixes\\index.ctp',
+)
+Request URL: /fixes/
+Stack Trace:
+#0 C:\xampp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#4 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-02 15:04:21 Error: [MissingActionException] Action FixesController::id1() could not be found.
+Exception Attributes: array (
+  'controller' => 'FixesController',
+  'action' => 'id1',
+)
+Request URL: /fixes/id1
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:04:26 Error: [MissingViewException] View file "Fixes\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Fixes\\view.ctp',
+)
+Request URL: /fixes/1
+Stack Trace:
+#0 C:\xampp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#4 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-02 15:04:41 Error: [MissingActionException] Action FixesController::id=1() could not be found.
+Exception Attributes: array (
+  'controller' => 'FixesController',
+  'action' => 'id=1',
+)
+Request URL: /fixes/id=1.json
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:04:53 Error: [MissingActionException] Action FixesController::id=2() could not be found.
+Exception Attributes: array (
+  'controller' => 'FixesController',
+  'action' => 'id=2',
+)
+Request URL: /fixes/id=2.json
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FixesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:05:57 Error: [MissingActionException] Action VehiclesController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'VehiclesController',
+  'action' => '1',
+)
+Request URL: /vehicles/1/latitude.json
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:06:19 Error: [MissingActionException] Action VehiclesController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'VehiclesController',
+  'action' => '1',
+)
+Request URL: /vehicles/1/latitude.json
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-02 15:06:44 Error: [MissingViewException] View file "Vehicles\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Vehicles\\view.ctp',
+)
+Request URL: /vehicles/1
+Stack Trace:
+#0 C:\xampp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\xampp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest))
+#4 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-02 15:24:22 Error: [MissingControllerException] Controller class App2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'App2Controller',
+  'plugin' => NULL,
+)
+Request URL: /app2
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 15:42:31 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /view/pages/vehicle_update
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-02 15:43:50 Error: [MissingActionException] Action PagesController::vehicle_update() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'vehicle_update',
+)
+Request URL: /pages/vehicle_update
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
