@@ -37,6 +37,7 @@ public function view($id) {
 	public function add()
 	{
 		try {
+			$this->request->data["Fix"]["fix_time"] = date("YYYY-MM-DD H:i:s");
 			if ($this->Fix->save($this->request->data)) {
 				$result = $this->Fix->read();
 				return $this->setResponse(200, ["result" =>$result]);
