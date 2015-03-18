@@ -16,7 +16,7 @@ angular
 		  });
 	}])
 	.value("http_config",{
-		host:"",
+		host:"http://52.0.225.159",
 	})
 
 	.controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http","$interval",
