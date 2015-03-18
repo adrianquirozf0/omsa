@@ -15,9 +15,9 @@ angular
 		    v: '3.exp',
 		  });
 	}])
-	.value("http_config",{
-		host:"http://52.0.225.159",
-	})
+	// .value("http_config",{
+	// 	host:"http://52.0.225.159",
+	// })
 
 	.controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http","$interval",
 		function($geolocation,$scope,uiGmapIsReady,http_config,$http,$interval){
@@ -110,7 +110,7 @@ angular
         }, true);
 
            $scope.submit = function(){
-           	var url = http_config.host + "/fixes.json";
+           	var url = "http://52.0.225.159/fixes.json";
            	var now = new Date();
            	var myDate = now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2)+" "+
            	 ("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2)+":"+("0"+now.getSeconds()).slice(-2);
@@ -118,7 +118,7 @@ angular
            		Fix: {
            			vehicle_id:1,
            			latitude:$scope.map.marker.coords.latitude,
-           			longitude: $scope.map.marker.coords.longitude,
+           			longitude: $scope.map.ma|rker.coords.longitude,
            			fix_time: myDate,
 
            			
