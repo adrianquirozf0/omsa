@@ -1,3 +1,5 @@
+
+
 angular
  // .module('myApp', ['ngGeolocation'])
  //    .controller('geolocCtrl', ['$geolocation', '$scope', function($geolocation, $scope) {
@@ -15,12 +17,12 @@ angular
 		    v: '3.exp',
 		  });
 	}])
-	// .value("http_config",{
-	// 	host:"http://52.0.225.159",
-	// })
+	.value("http_config",{
+		host:"52.0.225.159",
+	})
 
-	.controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http","$interval",
-		function($geolocation,$scope,uiGmapIsReady,http_config,$http,$interval){
+	.controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http",
+		function($geolocation,$scope,uiGmapIsReady,http_config,http){
 		 $geolocation.watchPosition({
             timeout: 60000,
             maximumAge: 0,
@@ -38,12 +40,11 @@ angular
 
 				 id: 0,
 		        coords: {
-		            latitude: 18.487876,
-		            longitude: -69.962292,
+		            latitude: 18.488044,
+		            longitude: -64.96300,
 		        },
 		        options:{
-		        	draggable:false
-
+		        	draggable:true
 		        }
 
 			},
@@ -53,50 +54,18 @@ angular
 				longitude: -69.962271, 
 			},
 		};
-        $scope.$watch(function() {
-             return $scope.map.marker.coords;
-         }, function (new_val) {
+             $scope.$watch(function() {
+        	return $geolocation.position.coords;
+        }, function (new_val) {
         	if (!new_val) {
         		return;
         	}
         	
         	console.log(new_val.latitude,new_val.longitude);
         	$scope.map.marker.coords.latitude=new_val.latitude;
-        	$scope.map.marker.coords.longitude=new_val.longitude; 
-        	console.log("User moved");
-        	update();
-		});
+        	$scope.map.marker.coords.longitude=new_val.longitude;
+        });
 
-		$interval(function() {
-			console.log("Interval occurred");
-			update();
-		},1000);
-
-        function update() {
-        	uiGmapIsReady.promise(1)
-        		.then(function(instances) {
-        			return $http.get(http_config.host+"/vehicles/1.json");
-        		})
-        		.then(function (data) {
-        			console.log("datos", data.data.result);
-        			return data.data.result;
-        		})
-        		.then(function(result){
-
-	     			var origin1 = new google.maps.LatLng(result.Fix.latitude,result.Fix.longitude);
-	     			console.log("longitud", result.Fix.longitude);
-	    			var destinationB = new google.maps.LatLng($scope.map.marker.coords.latitude,$scope.map.marker.coords.longitude);
-	    	         
-		    		var service = new google.maps.DistanceMatrixService();
-		    		service.getDistanceMatrix({
-						origins: [origin1],
-						destinations: [destinationB],
-						travelMode: google.maps.TravelMode.DRIVING,
-						avoidHighways: false,
-						avoidTolls: false
-					}, callback);
-        		});
-        }
 
         $scope.$watch(function() {
         	return $scope.map.marker.coords;
@@ -110,7 +79,7 @@ angular
         }, true);
 
            $scope.submit = function(){
-           	var url = "http://52.0.225.159/fixes.json";
+           	var url = http_config.host + "/fixes.json";
            	var now = new Date();
            	var myDate = now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2)+" "+
            	 ("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2)+":"+("0"+now.getSeconds()).slice(-2);
@@ -118,36 +87,48 @@ angular
            		Fix: {
            			vehicle_id:1,
            			latitude:$scope.map.marker.coords.latitude,
-           			longitude: $scope.map.ma|rker.coords.longitude,
+           			longitude: $scope.map.marker.coords.longitude,
            			fix_time: myDate,
 
            			
            		}
            	};
-			$http.post(url,data);
+			http.post(url,data);
            };
        
       $scope.pause = function() {
       	$scope.paused = !$scope.paused;
       };
 
+uiGmapIsReady.promise(1).then(function(instances) {
+     var origin1 = new google.maps.LatLng(18.487826949218416,-69.96467035609737);
+    var destinationB = new google.maps.LatLng(18.4878797,-69.9631046);
+
+    var service = new google.maps.DistanceMatrixService();
+    service.getDistanceMatrix(
+      {
+        origins: [origin1],
+        destinations: [destinationB],
+        travelMode: google.maps.TravelMode.DRIVING,
+        avoidHighways: false,
+        avoidTolls: false
+      }, callback);
 
     function callback(response, status) {
-	    $scope.$apply(function(){
-	        var row = response.rows.shift();
-	        var element = row.elements.shift();
-	        if (element.status == "OK") {
-	          var distance = element.distance.text;
-	          var duration = element.duration.text;
-	          $scope.distancia = distance;
-	          $scope.duracion = duration;
-	          console.log("Distancia: " + distance,  "Duracion: " + duration);
-	        } else {
-	          console.log("No se  pudo calcular la ruta.")
-	        }
-    	});
-	};
-    
+    $scope.$apply(function(){
+        var row = response.rows.shift();
+        var element = row.elements.shift();
+        if (element.status == "OK") {
+          var distance = element.distance.text;
+          var duration = element.duration.text;
+          $scope.distancia = distance;
+          $scope.duracion = duration;
+        } else {
+          console.log("No se  pudo calcular la ruta.")
+        }
+        
+    })};
+    });
 
 		
 	}]);
