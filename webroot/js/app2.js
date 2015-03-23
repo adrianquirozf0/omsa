@@ -68,16 +68,14 @@ angular
 			},
 		};
         $scope.$watch(function() {
-             return $scope.map.marker2.coords;
+             return $scope.map.marker.coords;
          }, function (new_val) {
         	if (!new_val) {
         		return;
         	}
         	
         	console.log(new_val.latitude,new_val.longitude);
-        	$scope.map.marker.coords.latitude=new_val.latitude;
-        	$scope.map.marker.coords.longitude=new_val.longitude; 
-        	console.log("vehicle moved");
+        	
         	update();
 		});
 
@@ -96,10 +94,14 @@ angular
         			return data.data.result;
         		})
         		.then(function(result){
+        			
+        			$scope.map.marker.coords.latitude=result.Fix.latitude;
+        			$scope.map.marker.coords.longitude=result.Fix.longitude; 
+        			console.log("vehicle moved");
 
 	     			var origin1 = new google.maps.LatLng(result.Fix.latitude,result.Fix.longitude);
 	     			console.log("longitud", result.Fix.longitude);
-	    			var destinationB = new google.maps.LatLng($scope.map.marker.coords.latitude,$scope.map.marker.coords.longitude);
+	    			var destinationB = new google.maps.LatLng($scope.map.marker2.coords.latitude,$scope.map.marker2.coords.longitude);
 	    	         
 		    		var service = new google.maps.DistanceMatrixService();
 		    		service.getDistanceMatrix({
