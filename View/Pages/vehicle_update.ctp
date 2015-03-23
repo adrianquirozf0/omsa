@@ -20,6 +20,7 @@ echo $this->Html->script("app2");
 			<div id="map_canvas" style="height:400px;width:800px">
 				 <ui-gmap-google-map center="map.center" zoom="map.zoom" control="map.control">
         		<ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+        		<ui-gmap-marker coords="map.marker2.coords" idkey="map.marker2.id" options="map.marker2.options"></ui-gmap-marker>
     		</ui-gmap-google-map>
 			</div>
 			<div>

@@ -48,7 +48,7 @@ angular
 
 			},
 
-			marker: { 
+			marker2: { 
 
 				 id: 1,
 		        coords: {
