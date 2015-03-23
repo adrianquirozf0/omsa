@@ -97,7 +97,7 @@ angular
         			
         			$scope.map.marker.coords.latitude=result.Fix.latitude;
         			$scope.map.marker.coords.longitude=result.Fix.longitude; 
-        			console.log("vehicle moved", map.marker.coords.longitude);
+        			console.log("vehicle moved", $scope.map.marker.coords.longitude);
 
 	     			var origin1 = new google.maps.LatLng(result.Fix.latitude,result.Fix.longitude);
 	     			console.log("longitud", result.Fix.longitude);
