@@ -52,8 +52,8 @@ angular
 
 				 id: 1,
 		        coords: {
-		            latitude: $scope.map.marker.coords.latitude,
-		            longitude:$scope.map.marker.coords.longitude,
+		            latitude: 18.4864133,
+		            longitude: -69.9543901,
 		        },
 		        options:{
 		        	draggable:true
