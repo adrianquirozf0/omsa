@@ -42,6 +42,20 @@ angular
 		            longitude: -69.962292,
 		        },
 		        options:{
+		        	draggable:false
+
+		        }
+
+			},
+
+			marker: { 
+
+				 id: 1,
+		        coords: {
+		            latitude: 18.4864133,
+		            longitude: -69.9543901,
+		        },
+		        options:{
 		        	draggable:true
 
 		        }
