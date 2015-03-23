@@ -1,3 +1,7 @@
+
+<?php
+echo $this->Html->script("app");
+?>
 <style type="text/css">
 .angular-google-map-container {
 	height:400px;
