@@ -42,7 +42,7 @@ angular
 		            longitude: -69.962292,
 		        },
 		        options:{
-		        	draggable:true
+		        	draggable:false
 
 		        }
 
@@ -56,7 +56,7 @@ angular
 		            longitude: -69.9543901,
 		        },
 		        options:{
-		        	draggable:false
+		        	draggable:true
 
 		        }
 
@@ -68,7 +68,7 @@ angular
 			},
 		};
         $scope.$watch(function() {
-             return $scope.map.marker.coords;
+             return $scope.map.marker2.coords;
          }, function (new_val) {
         	if (!new_val) {
         		return;
