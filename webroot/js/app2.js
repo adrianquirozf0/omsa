@@ -1,5 +1,5 @@
 angular
- // .module('myApp', ['ngGeolocation'])
+ /// .module('myApp', ['ngGeolocation'])
  //    .controller('geolocCtrl', ['$geolocation', '$scope', function($geolocation, $scope) {
  //        $geolocation.watchPosition({
  //            timeout: 60000,
