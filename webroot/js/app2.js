@@ -68,7 +68,7 @@ angular
 			},
 		};
         $scope.$watch(function() {
-             return $scope.map.marker2.coords;
+             return $scope.map.marker.coords;
          }, function (new_val) {
         	if (!new_val) {
         		return;
