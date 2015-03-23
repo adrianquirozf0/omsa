@@ -97,7 +97,7 @@ angular
         			
         			$scope.map.marker.coords.latitude=result.Fix.latitude;
         			$scope.map.marker.coords.longitude=result.Fix.longitude; 
-        			console.log("vehicle moved");
+        			console.log("vehicle moved", map.marker.coords.longitude);
 
 	     			var origin1 = new google.maps.LatLng(result.Fix.latitude,result.Fix.longitude);
 	     			console.log("longitud", result.Fix.longitude);
@@ -114,34 +114,34 @@ angular
         		});
         }
 
-        $scope.$watch(function() {
-        	return $scope.map.marker.coords;
-        }, function (new_val, old_val) {
-        	if (!new_val || new_val == old_val) {
-        		return;
-        	}
-        	if (!$scope.paused) {
-        		$scope.submit();
-        	}
-        }, true);
+   //      $scope.$watch(function() {
+   //      	return $scope.map.marker.coords;
+   //      }, function (new_val, old_val) {
+   //      	if (!new_val || new_val == old_val) {
+   //      		return;
+   //      	}
+   //      	if (!$scope.paused) {
+   //      		$scope.submit();
+   //      	}
+   //      }, true);
 
-           $scope.submit = function(){
-           	var url = http_config.host + "/fixes.json";
-           	var now = new Date();
-           	var myDate = now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2)+" "+
-           	 ("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2)+":"+("0"+now.getSeconds()).slice(-2);
-           	var data = {
-           		Fix: {
-           			vehicle_id:1,
-           			latitude:$scope.map.marker.coords.latitude,
-           			longitude: $scope.map.marker.coords.longitude,
-           			fix_time: myDate,
+   //         $scope.submit = function(){
+   //         	var url = http_config.host + "/fixes.json";
+   //         	var now = new Date();
+   //         	var myDate = now.getFullYear()+"-"+("0"+(now.getMonth()+1)).slice(-2)+"-"+("0"+now.getDate()).slice(-2)+" "+
+   //         	 ("0"+now.getHours()).slice(-2)+":"+("0"+now.getMinutes()).slice(-2)+":"+("0"+now.getSeconds()).slice(-2);
+   //         	var data = {
+   //         		Fix: {
+   //         			vehicle_id:1,
+   //         			latitude:$scope.map.marker.coords.latitude,
+   //         			longitude: $scope.map.marker.coords.longitude,
+   //         			fix_time: myDate,
 
            			
-           		}
-           	};
-			$http.post(url,data);
-           };
+   //         		}
+   //         	};
+			// $http.post(url,data);
+   //         };
        
       $scope.pause = function() {
       	$scope.paused = !$scope.paused;
