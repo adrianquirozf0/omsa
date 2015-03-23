@@ -52,8 +52,8 @@ angular
 
 				 id: 1,
 		        coords: {
-		            latitude: 18.4864133,
-		            longitude: -69.9543901,
+		            latitude: new_val.latitude,
+		            longitude: ,
 		        },
 		        options:{
 		        	draggable:true
@@ -63,12 +63,12 @@ angular
 			},
 			zoom: 16, 
 			center: {
-				latitude: 18.488044, 
-				longitude: -69.962271, 
+				latitude: new_val.latitude, 
+				longitude: new_val.longitude, 
 			},
 		};
         $scope.$watch(function() {
-             return $scope.map.marker.coords;
+             return $scope.map.marker2.coords;
          }, function (new_val) {
         	if (!new_val) {
         		return;
@@ -77,7 +77,7 @@ angular
         	console.log(new_val.latitude,new_val.longitude);
         	$scope.map.marker.coords.latitude=new_val.latitude;
         	$scope.map.marker.coords.longitude=new_val.longitude; 
-        	console.log("User moved");
+        	console.log("vehicle moved");
         	update();
 		});
 
