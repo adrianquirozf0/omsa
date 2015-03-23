@@ -52,8 +52,8 @@ angular
 
 				 id: 1,
 		        coords: {
-		            latitude: new_val.latitude,
-		            longitude: ,
+		            latitude: $scope.map.marker.coords.latitude,
+		            longitude:$scope.map.marker.coords.longitude,
 		        },
 		        options:{
 		        	draggable:true
@@ -63,8 +63,8 @@ angular
 			},
 			zoom: 16, 
 			center: {
-				latitude: new_val.latitude, 
-				longitude: new_val.longitude, 
+				latitude: 18.488044, 
+				longitude: -69.962271, 
 			},
 		};
         $scope.$watch(function() {
