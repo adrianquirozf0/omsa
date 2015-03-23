@@ -42,7 +42,7 @@ angular
 		            longitude: -69.962292,
 		        },
 		        options:{
-		        	draggable:false
+		        	draggable:true
 
 		        }
 
@@ -52,11 +52,11 @@ angular
 
 				 id: 1,
 		        coords: {
-		            latitude: 18.4864133,
-		            longitude: -69.9543901,
+		            latitude: 18.487876,
+		            longitude: -69.962292,
 		        },
 		        options:{
-		        	draggable:true
+		        	draggable:false
 
 		        }
 
