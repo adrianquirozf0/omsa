@@ -42,7 +42,7 @@ angular
 		            longitude: -69.962292,
 		        },
 		        options:{
-		        	draggable:false
+		        	draggable:true
 
 		        }
 
