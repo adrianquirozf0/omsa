@@ -1,14 +1,7 @@
 angular
- /// .module('myApp', ['ngGeolocation'])
- //    .controller('geolocCtrl', ['$geolocation', '$scope', function($geolocation, $scope) {
- //        $geolocation.watchPosition({
- //            timeout: 60000,
- //            maximumAge: 0,
- //            enableHighAccuracy: true
- //        });
- //        $scope.myCoords = $geolocation.position.coords; // this is regularly updated
- //        $scope.myError = $geolocation.position.error; // this becomes truthy, and has 'code' and 'message' if an error occurs
- //    }]);
+
+
+
 	.module("app",["uiGmapgoogle-maps",'ngGeolocation'])
 	.config(['uiGmapGoogleMapApiProvider', function (GoogleMapApi) {
 		  GoogleMapApi.configure({
@@ -33,6 +26,7 @@ angular
      $scope.distancia = "Calculando...";
 
 		 $scope.map = {
+
 		 	control: {},
 			marker: { 
 
@@ -41,10 +35,13 @@ angular
 		            latitude: 18.487876,
 		            longitude: -69.962292,
 		        },
+		        icon: "http://maps.google.com/mapfiles/kml/pal4/icon15.png",
 		        options:{
 		        	draggable:true
 
+
 		        }
+
 
 			},
 
@@ -55,6 +52,7 @@ angular
 		            latitude: 18.487876,
 		            longitude: -69.962292,
 		        },
+		         icon: "http://maps.google.com/mapfiles/kml/pal4/icon28.png",
 		        options:{
 		        	draggable:false
 
