@@ -28677,3 +28677,169 @@ Stack Trace:
 #1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-04-18 22:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:43:46 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+
+#3 {main}
+2015-04-18 22:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:46:52 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+
+#3 {main}
+2015-04-18 22:47:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_overlay.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:47:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_sprite.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:47:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:47:12 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 22:47:12 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 22:47:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:47:46 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 22:48:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:48:07 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+
+#3 {main}
+2015-04-18 22:48:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 22:48:17 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 22:48:17 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
