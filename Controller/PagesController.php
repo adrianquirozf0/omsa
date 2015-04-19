@@ -41,7 +41,7 @@ class PagesController extends AppController {
 	public function index(){		
 	}
 
-	public function vehicle_update(){		
+	public function sss(){		
 	}
 
 	public function inicio(){		
