@@ -51,7 +51,7 @@ echo $this->Html->meta('utf-8');
 
     
 <body >
-  <nav>
+<!--   <nav>
 
      <div class="twelve columns header_nav">
      <div class="row">
@@ -63,8 +63,8 @@ echo $this->Html->meta('utf-8');
           <li class="has-flyout">
            <a href="#">Example Pages</a><a href="#" class="flyout-toggle"></a>
             <ul class="flyout"><!-- Flyout Menu -->
-              <li class="has-flyout"><a href="blog.html">Blog</a></li>
-              <li class="has-flyout"><a href="blog_single.html">Blog Single Page</a></li>
+              <!-- <li class="has-flyout"><a href="blog.html">Blog</a></li> -->
+             <!--  <li class="has-flyout"><a href="blog_single.html">Blog Single Page</a></li>
               <li class="has-flyout"><a href="products-page.html">Products Page</a></li>
               <li class="has-flyout"><a href="product-single.html">Product Single</a></li>
               <li class="has-flyout"><a href="pricing-table.html">Pricing Table</a></li>
@@ -72,7 +72,7 @@ echo $this->Html->meta('utf-8');
             </ul> 
           </li><!-- END Flyout Menu -->
       
-          <li class=""><a href="galleries.html">Boxed Gallery</a></li>
+        <!--   <li class=""><a href="galleries.html">Boxed Gallery</a></li>
           <li class=""><a href="portfolio.html">Portfolio Gallery</a></li>
           <li class=""><a href="pinterest-style.html">Pinterest Gallery</a></li>
           <li class=""><a href="tiles.html">Tiles</a></li>
@@ -95,8 +95,8 @@ echo $this->Html->meta('utf-8');
             <h1 class="heading_supersize">SILTRAP</h1>
               <h2 class="welcome_text">tu real para!</h2>    
         
-</header>
-
+</header> -->
+ --> -->
 
 
 	
@@ -138,7 +138,7 @@ $(document).ready(function()
   <a id="inline" style="display:none;" href="#data">Test</a>
   <div style="display:none;">
     <div id="data">
-      Esta es una prueba
+      Guelo la Para de INTEC
  </section> 
  
  </div>

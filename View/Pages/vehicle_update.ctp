@@ -14,8 +14,8 @@ echo $this->Html->script("app2");
 .angular-google-map-container {
 
 	
-	height:400px;
-	width:800px;
+	height:1500px;
+	width:1500px;
 	
 }
 </style>
