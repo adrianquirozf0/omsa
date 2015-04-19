@@ -124,7 +124,7 @@ $(document).ready(function()
 
 
     },
-    10000 //tiempo que dura en abrir 
+    100000 //tiempo que dura en abrir 
     );
   
 
@@ -138,7 +138,7 @@ $(document).ready(function()
   <a id="inline" style="display:none;" href="#data">Test</a>
   <div style="display:none;">
     <div id="data">
-      Guelo la Para de INTEC
+      SILTRAP introduce tu publicidad
  </section> 
  
  </div>
