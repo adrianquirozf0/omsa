@@ -15,7 +15,7 @@ echo $this->Html->script("app2");
 
 	
 	height:800px;
-	width:800px;
+	width:1000px;
 	
 }
 </style>
