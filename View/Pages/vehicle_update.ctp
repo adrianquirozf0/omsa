@@ -10,11 +10,16 @@ echo $this->Html->script("app2");
   
 
 <style type="text/css">
+
 .angular-google-map-container {
+
+	
 	height:400px;
 	width:800px;
+	
 }
 </style>
+
 <div ng-app="app">
 	<div ng-controller="maincontroller">
 			<button ng-click="submit()"> enviar posicion</button>

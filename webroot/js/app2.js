@@ -14,12 +14,7 @@ angular
 
 	.controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http","$interval",
 		function($geolocation,$scope,uiGmapIsReady,http_config,$http,$interval){
-		 $geolocation.watchPosition({
-            timeout: 60000,
-            maximumAge: 0,
-            enableHighAccuracy: true
-
-        });
+		
 
 		 $scope.paused = false;
      $scope.duracion = "Calculando...";

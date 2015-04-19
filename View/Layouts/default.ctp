@@ -28,19 +28,21 @@ echo $this->Html->meta('utf-8');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 				
-echo $this->Html->css('foundation.min');
-echo $this->Html->css('main');
-  echo $this->Html->css('app');
-echo $this->Html->script('modernizr.foundation');
-  echo $this->Html->css('ligature'); //no tocar
-    
-      echo $this->Html->script('jquery-migrate-1.2.1');
-        echo $this->Html->script('camera');
-  echo $this->Html->script('touchTouch.jquery');
-  echo $this->Html->script('jquery.stellar.js');
-  echo $this->Html->script('script');
-  echo $this->Html->script('jquery.mobile.customized.min');
-  echo $this->Html->script('wow');
+// echo $this->Html->css('foundation.min');
+// echo $this->Html->css('main');
+//   echo $this->Html->css('app');
+// echo $this->Html->script('modernizr.foundation');
+//   echo $this->Html->css('ligature'); //no tocar
+//       echo $this->Html->css('ninja-slider'); //no tocar
+//      echo $this->Html->script('ninjaVideoPlugin');
+//      echo $this->Html->script('ninja-slider');
+//      echo $this->Html->css('zerogrid');
+//      echo $this->Html->css('jquery.fancybox');
+//      echo $this->Html->script('jquery');
+//      echo $this->Html->script('jquery.fancybox');
+//      echo $this->Html->script('jquery-migrate-1.1.1');
+//      echo $this->Html->script('bgstretcher');
+//      echo $this->Html->script('css3-mediaqueries.js');
 
 	?>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
@@ -90,8 +92,8 @@ echo $this->Html->script('modernizr.foundation');
       
 
      <header id="header">
-            <h1 class="heading_supersize">BASE 2013</h1>
-              <h2 class="welcome_text">The future proof starting point for any website!</h2>    
+            <h1 class="heading_supersize">SILTRAP</h1>
+              <h2 class="welcome_text">tu real para!</h2>    
         
 </header>
 
@@ -99,31 +101,31 @@ echo $this->Html->script('modernizr.foundation');
 
 	
 
-<script>
-$(document).ready(function()
-{
+// <script>
+// $(document).ready(function()
+// {
 
-  window.setInterval(function()
-    {
+//   window.setInterval(function()
+//     {
 
-      $("a#inline").fancybox(
-        {
-          afterLoad: function()
-          {
-            setTimeout(function()
-            {
-              $.fancybox.close();
-            },
-            3000 //tiempo que dura en cerrar 
+//       $("a#inline").fancybox(
+//         {
+//           afterLoad: function()
+//           {
+//             setTimeout(function()
+//             {
+//               $.fancybox.close();
+//             },
+//             3000 //tiempo que dura en cerrar 
 
-            )
-          }
-        }).trigger('click');
+//             )
+//           }
+//         }).trigger('click');
 
 
-    },
-    10000 //tiempo que dura en abrir 
-    );
+//     },
+//     10000 //tiempo que dura en abrir 
+//     );
   
 
 
