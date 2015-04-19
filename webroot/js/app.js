@@ -9,7 +9,7 @@ angular
  //        $scope.myCoords = $geolocation.position.coords; // this is regularly updated
  //        $scope.myError = $geolocation.position.error; // this becomes truthy, and has 'code' and 'message' if an error occurs
  //    }]);
-  .module("app",["uiGmapgoogle-maps"])
+  .module("app",["uiGmapgoogle-maps",'ngGeolocation'])
   .config(['uiGmapGoogleMapApiProvider', function (GoogleMapApi) {
       GoogleMapApi.configure({
         v: '3.exp',
@@ -19,7 +19,7 @@ angular
     host:"http://52.0.225.159/",
   })
 
-  .controller("maincontroller", [ '$scope',"uiGmapIsReady","http_config","$http",
+  .controller("maincontroller", ['$geolocation', '$scope',"uiGmapIsReady","http_config","$http",
     function($geolocation,$scope,uiGmapIsReady,http_config,http){
      $geolocation.watchPosition({
             timeout: 60000,

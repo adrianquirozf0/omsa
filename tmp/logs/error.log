@@ -29402,3 +29402,189 @@ Request URL: /images/fancybox/fancybox_sprite.png
 Stack Trace:
 #0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-04-19 07:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:04:18 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:04:28 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_overlay.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:04:29 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_sprite.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:04:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:04:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/dist/jquery-migrate.min.map
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:08:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:08:27 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/app.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+
+#1 {main}
+2015-04-19 07:08:39 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_overlay.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:08:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/fancybox/fancybox_sprite.png
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:09:19 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:09:19 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/app.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:10:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:10:22 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:10:22 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/app.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:11:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:11:43 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/foundation.min.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:11:43 Error: [MissingControllerException] Controller class JavascriptsController could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptsController',
+  'plugin' => NULL,
+)
+Request URL: /javascripts/app.js
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:11:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/zerogrid.css
+Stack Trace:
+#0 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 07:11:56 Error: [MissingActionException] Action PagesController::javascripts() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'javascripts',
+)
+Request URL: /pages/javascripts/app.js
+Stack Trace:
+#0 C:\xampp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\omsa\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+
+#3 {main}

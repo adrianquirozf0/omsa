@@ -40,12 +40,12 @@ echo $this->Html->meta('utf-8');
      echo $this->Html->css('jquery.fancybox');
      echo $this->Html->script('jquery');
      echo $this->Html->script('jquery.fancybox');
-     echo $this->Html->script('jquery-migrate-1.1.1');
-     echo $this->Html->script('bgstretcher');
-     echo $this->Html->script('css3-mediaqueries.js');
+     // echo $this->Html->script('jquery-migrate-1.1.1');
+     // echo $this->Html->script('bgstretcher');
+     // echo $this->Html->script('css3-mediaqueries.js');
 
 	?>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+ 
 
 
 
