@@ -36,13 +36,13 @@ echo $this->Html->meta('utf-8');
 //       echo $this->Html->css('ninja-slider'); //no tocar
 //      echo $this->Html->script('ninjaVideoPlugin');
 //      echo $this->Html->script('ninja-slider');
-//      echo $this->Html->css('zerogrid');
-//      echo $this->Html->css('jquery.fancybox');
-//      echo $this->Html->script('jquery');
-//      echo $this->Html->script('jquery.fancybox');
-//      echo $this->Html->script('jquery-migrate-1.1.1');
-//      echo $this->Html->script('bgstretcher');
-//      echo $this->Html->script('css3-mediaqueries.js');
+     echo $this->Html->css('zerogrid');
+     echo $this->Html->css('jquery.fancybox');
+     echo $this->Html->script('jquery');
+     echo $this->Html->script('jquery.fancybox');
+     echo $this->Html->script('jquery-migrate-1.1.1');
+     echo $this->Html->script('bgstretcher');
+     echo $this->Html->script('css3-mediaqueries.js');
 
 	?>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
@@ -102,30 +102,30 @@ echo $this->Html->meta('utf-8');
 	
 
 // <script>
-// $(document).ready(function()
-// {
+$(document).ready(function()
+{
 
-//   window.setInterval(function()
-//     {
+  window.setInterval(function()
+    {
 
-//       $("a#inline").fancybox(
-//         {
-//           afterLoad: function()
-//           {
-//             setTimeout(function()
-//             {
-//               $.fancybox.close();
-//             },
-//             3000 //tiempo que dura en cerrar 
+      $("a#inline").fancybox(
+        {
+          afterLoad: function()
+          {
+            setTimeout(function()
+            {
+              $.fancybox.close();
+            },
+            3000 //tiempo que dura en cerrar 
 
-//             )
-//           }
-//         }).trigger('click');
+            )
+          }
+        }).trigger('click');
 
 
-//     },
-//     10000 //tiempo que dura en abrir 
-//     );
+    },
+    10000 //tiempo que dura en abrir 
+    );
   
 
 
