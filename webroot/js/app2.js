@@ -54,7 +54,7 @@ angular
 		        }
 
 			},
-			zoom: 17, 
+			zoom: 16, 
 			center: {
 				latitude: 18.4876611,
 				longitude: -69.957755, 

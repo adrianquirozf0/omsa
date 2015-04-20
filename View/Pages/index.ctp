@@ -26,7 +26,10 @@ echo $this->Html->script("app2");
 <div>distancia:{{distancia}}</div>
 			<div>duracion:{{duracion}}</div>
 			<div></div>
-			<div></div>
+			<div>
+
+				
+			</div>
 			<div id="map_canvas" style="height:400px;width:800px">
 				 <ui-gmap-google-map center="map.center" zoom="map.zoom" control="map.control">
         		<ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" icon='map.marker.icon' options="map.marker.options"></ui-gmap-marker>
