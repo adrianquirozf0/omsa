@@ -72,7 +72,7 @@ echo $this->Html->meta('utf-8');
             </ul> 
           </li><!-- END Flyout Menu -->
       
-        <!--   <li class=""><a href="galleries.html">Boxed Gallery</a></li>
+         <!--  <li class=""><a href="galleries.html">Boxed Gallery</a></li>
           <li class=""><a href="portfolio.html">Portfolio Gallery</a></li>
           <li class=""><a href="pinterest-style.html">Pinterest Gallery</a></li>
           <li class=""><a href="tiles.html">Tiles</a></li>
@@ -89,13 +89,13 @@ echo $this->Html->meta('utf-8');
       </div>
       
 </nav>
-      
+       -->
 
      <header id="header">
             <h1 class="heading_supersize">SILTRAP</h1>
               <h2 class="welcome_text">tu real para!</h2>    
         
-</header> -->
+</header>
  --> -->
 
 
