@@ -47,7 +47,7 @@ angular
 		            latitude: 18.487876,
 		            longitude: -69.962292,
 		        },
-		         icon: "http://2.themenova.com/wp-content/themes/nova/icons/Web-1/flag_red.png",
+		         icon: "http://maps.google.com/mapfiles/kml/paddle/I.png",
 		        options:{
 		        	draggable:false
 
