@@ -92,11 +92,11 @@ echo $this->Html->meta('utf-8');
        -->
 
      <header id="header">
-            <h1 class="heading_supersize">.........................................................SILTRAP...........................................</h1>
+            <h1 style="text-align:center"  >SILTRAP</h1>
               <h2 class="welcome_text"></h2>    
         
 </header>
- --> -->
+ 
 
 
 	
