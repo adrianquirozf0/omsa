@@ -56,8 +56,8 @@ angular
 			},
 			zoom: 16, 
 			center: {
-				latitude: 18.488044, 
-				longitude: -69.962271, 
+				latitude: 18.4876611,
+				longitude: -69.957755, 
 			},
 		};
         $scope.$watch(function() {
