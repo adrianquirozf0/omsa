@@ -92,8 +92,8 @@ echo $this->Html->meta('utf-8');
        -->
 
      <header id="header">
-            <h1 class="heading_supersize">SILTRAP</h1>
-              <h2 class="welcome_text">tu real para!</h2>    
+            <h1 class="heading_supersize">.........................................................SILTRAP...........................................</h1>
+              <h2 class="welcome_text"></h2>    
         
 </header>
  --> -->
