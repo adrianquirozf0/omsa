@@ -23,7 +23,7 @@ echo $this->Html->script("app2");
 			<button ng-click="calculateDistance()"> calc</button>
 			<button ng-click="pause()"> {{ paused ? "Resumir" : "Pausar" }}</button> 
 			 -->
-<h1 style="text-align:center" >Distancia:{{distancia}}               Duracion:{{duracion}}           </h1>
+<h1 style="text-align:center" >Distancia: {{distancia}}  /      Duracion:{{duracion}}           </h1>
               <h2 class="welcome_text"></h2>    
 			<div></div>
 			<div></div>
